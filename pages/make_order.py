@@ -5,8 +5,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from base.base_class import Base
+from utilites.logger import Logger
 
-
+"""Страница оформления заказа"""
 class Make_order(Base):
 
     def __init__(self, driver):
@@ -103,6 +104,7 @@ class Make_order(Base):
 
 
     def input_info_order(self):
+        Logger.add_start_step(method='input_info_orde')
         self.get_current_url()
         self.driver.execute_script("window.scrollTo(0, 500)")
         self.click_delivery()
@@ -117,6 +119,8 @@ class Make_order(Base):
         self.input_description(test_description="Завершение автотеста по покупке лучших беспроводных наушников)) Спасибо за внимание!")
         self.assert_url(result='https://doctorhead.ru/personal/order/make/')
         self.make_screenshot()
+        Logger.add_end_step(url=self.driver.current_url, method='input_info_order')
+
 
 
 

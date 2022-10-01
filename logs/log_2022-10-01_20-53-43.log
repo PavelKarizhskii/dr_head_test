@@ -1,0 +1,77 @@
+
+-----
+Test: tests/test_find_nautilus.py::test_find_nautilus (call)
+Start time: 2022-10-01 20:53:45.043576
+Start name method: go_to_vinyl
+
+End time: 2022-10-01 20:53:48.426078
+End name method: go_to_vinyl
+URL: https://doctorhead.ru/catalog/muzyka/
+
+-----
+
+-----
+Test: tests/test_find_nautilus.py::test_find_nautilus (call)
+Start time: 2022-10-01 20:53:48.438295
+Start name method: go_vinyl_record
+
+End time: 2022-10-01 20:53:52.258892
+End name method: go_vinyl_record
+URL: https://doctorhead.ru/catalog/muzyka/vinilovye-plastinki/
+
+-----
+
+-----
+Test: tests/test_find_nautilus.py::test_find_nautilus (call)
+Start time: 2022-10-01 20:53:52.259125
+Start name method: select_prince_of_silence
+
+End time: 2022-10-01 20:53:58.766900
+End name method: select_prince_of_silence
+URL: https://doctorhead.ru/product/nautilus-pompilius-knyaz-tishiny/
+
+-----
+
+-----
+Test: tests/test_road_to_dream.py::test_road_to_dream (call)
+Start time: 2022-10-01 20:54:05.488372
+Start name method: go_to_headphones
+
+End time: 2022-10-01 20:54:10.398986
+End name method: go_to_headphones
+URL: https://doctorhead.ru/catalog/personal-audio/naushniki/
+
+-----
+
+-----
+Test: tests/test_road_to_dream.py::test_road_to_dream (call)
+Start time: 2022-10-01 20:54:10.399569
+Start name method: go_cart_with_beyerdynamic_amiron_wireles
+
+End time: 2022-10-01 20:54:15.579494
+End name method: go_cart_with_beyerdynamic_amiron_wireles
+URL: https://doctorhead.ru/personal/cart/
+
+-----
+
+-----
+Test: tests/test_road_to_dream.py::test_road_to_dream (call)
+Start time: 2022-10-01 20:54:15.579784
+Start name method: go_make_order
+
+End time: 2022-10-01 20:54:18.193897
+End name method: go_make_order
+URL: https://doctorhead.ru/personal/order/make/
+
+-----
+
+-----
+Test: tests/test_road_to_dream.py::test_road_to_dream (call)
+Start time: 2022-10-01 20:54:18.194109
+Start name method: input_info_orde
+
+End time: 2022-10-01 20:54:22.450054
+End name method: input_info_order
+URL: https://doctorhead.ru/personal/order/make/
+
+-----

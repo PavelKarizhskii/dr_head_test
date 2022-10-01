@@ -8,7 +8,7 @@ from pages.personal_audio import Personal_audio_page
 from pages.vinyl_page import Vinyl_page
 from pages.vinyl_record_page import Vinyl_record_page
 
-
+"""Тест по поиску пластинки Князь тишины группы Наутилус"""
 def test_find_nautilus(set_up):
     driver = webdriver.Chrome(executable_path='/Users/pavelkarizskiy/PycharmProjects/dr_head_test/driver/chromedriver')
     print("start test find nautilus")

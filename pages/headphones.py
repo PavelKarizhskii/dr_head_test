@@ -5,8 +5,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from base.base_class import Base
+from utilites.logger import Logger
 
-
+"""Страница наушники"""
 class Headphones_page(Base):
 
     def __init__(self, driver):
@@ -75,6 +76,7 @@ class Headphones_page(Base):
 
 
     def go_cart_with_beyerdynamic_amiron_wireless(self):
+        Logger.add_start_step(method='go_cart_with_beyerdynamic_amiron_wireles')
         self.get_current_url()
         self.driver.execute_script("window.scrollTo(0, 1100)")
         self.click_more_brands()
@@ -87,6 +89,7 @@ class Headphones_page(Base):
         time.sleep(3)
         self.click_byu_beyerdynamic_amiron_wireless()
         self.click_go_to_cart()
+        Logger.add_end_step(url=self.driver.current_url, method='go_cart_with_beyerdynamic_amiron_wireles')
 
 
 

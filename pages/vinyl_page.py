@@ -5,8 +5,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from base.base_class import Base
+from utilites.logger import Logger
 
-
+"""Страница винил"""
 class Vinyl_page(Base):
 
     def __init__(self, driver):
@@ -38,8 +39,10 @@ class Vinyl_page(Base):
 
 
     def go_vinyl_record(self):
+        Logger.add_start_step(method='go_vinyl_record')
         self.get_current_url()
         self.click_vinyl_record()
+        Logger.add_end_step(url=self.driver.current_url, method='go_vinyl_record')
 
 
 

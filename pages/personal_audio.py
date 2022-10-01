@@ -5,8 +5,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from base.base_class import Base
+from utilites.logger import Logger
 
-
+"""Страница Персональное аудио"""
 class Personal_audio_page(Base):
 
     def __init__(self, driver):
@@ -52,16 +53,20 @@ class Personal_audio_page(Base):
         print("Click to vinyl")
 
     def go_to_headphones(self):
+        Logger.add_start_step(method='go_to_headphones')
         self.driver.get(self.url)
         self.driver.maximize_window()
         self.get_current_url()
         self.click_close_city()
         self.click_headphones()
+        Logger.add_end_step(url=self.driver.current_url, method='go_to_headphones')
 
 
     def go_to_vinyl(self):
+        Logger.add_start_step(method='go_to_vinyl')
         self.driver.get(self.url)
         self.driver.maximize_window()
         self.get_current_url()
         self.click_close_city()
         self.click_vinyl()
+        Logger.add_end_step(url=self.driver.current_url, method='go_to_vinyl')

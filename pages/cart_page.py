@@ -5,8 +5,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from base.base_class import Base
+from utilites.logger import Logger
 
-
+"""Страница козцины"""
 class Cart_page(Base):
 
     def __init__(self, driver):
@@ -38,9 +39,11 @@ class Cart_page(Base):
 
 
     def go_make_order(self):
+        Logger.add_start_step(method='go_make_order')
         self.get_current_url()
         self.driver.execute_script("window.scrollTo(0, 500)")
         self.click_make_order()
+        Logger.add_end_step(url=self.driver.current_url, method='go_make_order')
 
 
 

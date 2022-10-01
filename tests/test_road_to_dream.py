@@ -7,6 +7,8 @@ from pages.make_order import Make_order
 from pages.personal_audio import Personal_audio_page
 
 
+
+"""Тест по выбору и покупке лучших беспроводных наушников"""
 def test_road_to_dream(set_up):
     driver = webdriver.Chrome(executable_path='/Users/pavelkarizskiy/PycharmProjects/dr_head_test/driver/chromedriver')
     print("start test road to dream")

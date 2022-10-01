@@ -6,8 +6,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from base.base_class import Base
+from utilites.logger import Logger
 
-
+"""Страница Виниловые пластинки"""
 class Vinyl_record_page(Base):
 
     def __init__(self, driver):
@@ -61,12 +62,14 @@ class Vinyl_record_page(Base):
 
 
     def select_prince_of_silence(self):
+        Logger.add_start_step(method='select_prince_of_silence')
         self.get_current_url()
         self.input_executor(test_executor="Наутилус")
         self.click_executor_nautilus()
         self.driver.execute_script("window.scrollTo(0, 400)")
         self.click_vinyl_prince_of_silence()
         self.assert_word(word=self.get_album_name(), result='Nautilus Pompilius - Князь Тишины')
+        Logger.add_end_step(url=self.driver.current_url, method='select_prince_of_silence')
 
 
 
