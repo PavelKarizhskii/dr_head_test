@@ -1,0 +1,34 @@
+
+-----
+Test: tests/test_find_nautilus.py::test_find_nautilus (call)
+Start time: 2022-10-01 21:34:23.552428
+Start name method: go_to_vinyl
+
+End time: 2022-10-01 21:34:26.703958
+End name method: go_to_vinyl
+URL: https://doctorhead.ru/catalog/muzyka/
+
+-----
+
+-----
+Test: tests/test_find_nautilus.py::test_find_nautilus (call)
+Start time: 2022-10-01 21:34:26.704319
+Start name method: go_vinyl_record
+
+End time: 2022-10-01 21:34:27.732981
+End name method: go_vinyl_record
+URL: None
+
+-----
+
+-----
+Test: tests/test_find_nautilus.py::test_find_nautilus (call)
+Start time: 2022-10-01 21:34:27.733154
+Start name method: select_prince_of_silence
+
+
+-----
+Test: tests/test_road_to_dream.py::test_road_to_dream (call)
+Start time: 2022-10-01 21:34:29.394739
+Start name method: go_to_headphones
+

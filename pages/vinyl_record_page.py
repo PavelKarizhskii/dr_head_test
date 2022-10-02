@@ -19,7 +19,7 @@ class Vinyl_record_page(Base):
     """Lokators"""
 
     executor = '//input[@name="2562936554"]'
-    executor_nautilus = '/html/body/div[1]/div[5]/div[6]/div[1]/form/div[1]/div[3]/div[3]/div[3]/div/div[1]/div[2]/div/div/div/label[1023]/span[2]/span[1]'
+    executor_nautilus = '//*[@id="filter-section_2702"]/div[1]/div[2]/div/div/div/label[1022]/span[2]/span[1]'
     vinyl_prince_of_silence = '//img[@title="Фото - Nautilus Pompilius - Князь Тишины"]'
     album_name_locator = '//h1[@data-element-id="88752"]'
 

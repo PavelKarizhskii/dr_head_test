@@ -1,0 +1,33 @@
+
+-----
+Test: tests/test_find_nautilus.py::test_find_nautilus (call)
+Start time: 2022-10-02 16:40:05.981273
+Start name method: go_to_vinyl
+
+End time: 2022-10-02 16:40:09.795690
+End name method: go_to_vinyl
+URL: https://doctorhead.ru/catalog/muzyka/
+
+-----
+
+-----
+Test: tests/test_find_nautilus.py::test_find_nautilus (call)
+Start time: 2022-10-02 16:40:09.795913
+Start name method: go_vinyl_record
+
+End time: 2022-10-02 16:40:12.745140
+End name method: go_vinyl_record
+URL: https://doctorhead.ru/catalog/muzyka/vinilovye-plastinki/
+
+-----
+
+-----
+Test: tests/test_find_nautilus.py::test_find_nautilus (call)
+Start time: 2022-10-02 16:40:12.745383
+Start name method: select_prince_of_silence
+
+End time: 2022-10-02 16:40:24.230904
+End name method: select_prince_of_silence
+URL: https://doctorhead.ru/product/nautilus-pompilius-knyaz-tishiny/
+
+-----

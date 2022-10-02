@@ -86,7 +86,7 @@ class Headphones_page(Base):
         self.click_wireless()
         self.click_big_headphones()
         self.driver.execute_script("window.scrollTo(0, 500)")
-        time.sleep(3)
+        time.sleep(4)
         self.click_byu_beyerdynamic_amiron_wireless()
         self.click_go_to_cart()
         Logger.add_end_step(url=self.driver.current_url, method='go_cart_with_beyerdynamic_amiron_wireles')
