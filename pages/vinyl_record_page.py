@@ -31,7 +31,7 @@ class Vinyl_record_page(Base):
         return WebDriverWait(self.driver, 30).until(expected_conditions.element_to_be_clickable((By.XPATH, self.executor)))
 
     def get_executor_nautilus(self):
-        return WebDriverWait(self.driver, 30).until(expected_conditions.element_to_be_clickable((By.XPATH, self.executor_nautilus)))
+        return WebDriverWait(self.driver, 30).until(expected_conditions.element_to_be_clickable((By.XPATH, '//span[contains(text(), "Наутилус Помпилиус")]')))
 
 
     def get_vinyl_prince_of_silence(self):

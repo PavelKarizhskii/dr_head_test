@@ -1,0 +1,50 @@
+
+-----
+Test: tests/test_find_nautilus.py::test_find_nautilus (call)
+Start time: 2022-10-09 23:45:39.167705
+Start name method: go_to_vinyl
+
+End time: 2022-10-09 23:45:41.852851
+End name method: go_to_vinyl
+URL: https://doctorhead.ru/catalog/muzyka/
+
+-----
+
+-----
+Test: tests/test_find_nautilus.py::test_find_nautilus (call)
+Start time: 2022-10-09 23:45:41.853192
+Start name method: go_vinyl_record
+
+End time: 2022-10-09 23:45:47.356146
+End name method: go_vinyl_record
+URL: https://doctorhead.ru/catalog/muzyka/vinilovye-plastinki/
+
+-----
+
+-----
+Test: tests/test_find_nautilus.py::test_find_nautilus (call)
+Start time: 2022-10-09 23:45:47.356377
+Start name method: select_prince_of_silence
+
+End time: 2022-10-09 23:45:52.954387
+End name method: select_prince_of_silence
+URL: https://doctorhead.ru/product/nautilus-pompilius-knyaz-tishiny/
+
+-----
+
+-----
+Test: tests/test_road_to_dream.py::test_road_to_dream (call)
+Start time: 2022-10-09 23:45:59.583568
+Start name method: go_to_headphones
+
+End time: 2022-10-09 23:46:03.743465
+End name method: go_to_headphones
+URL: https://doctorhead.ru/catalog/personal-audio/naushniki/
+
+-----
+
+-----
+Test: tests/test_road_to_dream.py::test_road_to_dream (call)
+Start time: 2022-10-09 23:46:03.743717
+Start name method: go_cart_with_beyerdynamic_amiron_wireles
+
