@@ -116,7 +116,7 @@ class Make_order(Base):
         self.input_second_name(test_second_name="QA Automation Engineer (Python)")
         self.input_phone(test_phone="+79649863171")
         self.input_mail(test_mail="pavel.karizhsky@yandex.ru")
-        self.input_description(test_description="Завершение автотеста по покупке лучших беспроводных наушников)) Спасибо за внимание!")
+        self.input_description(test_description="Завершение автотеста по покупке беспроводных наушников Dali IO-4 Iron Black. Спасибо за внимание!")
         self.assert_url(result='https://doctorhead.ru/personal/order/make/')
         self.make_screenshot()
         Logger.add_end_step(url=self.driver.current_url, method='input_info_order')

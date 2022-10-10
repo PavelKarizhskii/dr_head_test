@@ -1,0 +1,77 @@
+
+-----
+Test: tests/test_byu_dali_io_4.py::test_road_to_dream (call)
+Start time: 2022-10-10 23:07:37.805873
+Start name method: go_to_headphones
+
+End time: 2022-10-10 23:07:44.317497
+End name method: go_to_headphones
+URL: https://doctorhead.ru/catalog/personal-audio/naushniki/
+
+-----
+
+-----
+Test: tests/test_byu_dali_io_4.py::test_road_to_dream (call)
+Start time: 2022-10-10 23:07:44.317730
+Start name method: go_cart_with_beyerdynamic_amiron_wireles
+
+End time: 2022-10-10 23:07:50.796476
+End name method: go_cart_with_beyerdynamic_amiron_wireles
+URL: https://doctorhead.ru/personal/cart/
+
+-----
+
+-----
+Test: tests/test_byu_dali_io_4.py::test_road_to_dream (call)
+Start time: 2022-10-10 23:07:50.796689
+Start name method: go_make_order
+
+End time: 2022-10-10 23:07:52.626105
+End name method: go_make_order
+URL: https://doctorhead.ru/personal/order/make/
+
+-----
+
+-----
+Test: tests/test_byu_dali_io_4.py::test_road_to_dream (call)
+Start time: 2022-10-10 23:07:52.626321
+Start name method: input_info_orde
+
+End time: 2022-10-10 23:07:56.132354
+End name method: input_info_order
+URL: https://doctorhead.ru/personal/order/make/
+
+-----
+
+-----
+Test: tests/test_find_nautilus.py::test_find_nautilus (call)
+Start time: 2022-10-10 23:08:02.697594
+Start name method: go_to_vinyl
+
+End time: 2022-10-10 23:08:05.041360
+End name method: go_to_vinyl
+URL: https://doctorhead.ru/catalog/muzyka/
+
+-----
+
+-----
+Test: tests/test_find_nautilus.py::test_find_nautilus (call)
+Start time: 2022-10-10 23:08:05.041833
+Start name method: go_vinyl_record
+
+End time: 2022-10-10 23:08:08.933079
+End name method: go_vinyl_record
+URL: https://doctorhead.ru/catalog/muzyka/vinilovye-plastinki/
+
+-----
+
+-----
+Test: tests/test_find_nautilus.py::test_find_nautilus (call)
+Start time: 2022-10-10 23:08:08.933555
+Start name method: select_prince_of_silence
+
+End time: 2022-10-10 23:08:14.525244
+End name method: select_prince_of_silence
+URL: https://doctorhead.ru/product/nautilus-pompilius-knyaz-tishiny/
+
+-----

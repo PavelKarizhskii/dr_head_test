@@ -18,7 +18,7 @@ class Headphones_page(Base):
     """Lokators"""
 
     more_brands = '//span[@class="more-brands"]'
-    brand_beyerdynamic = '//span[@data-role="count_brend-beyerdynamic"]'
+    brand = '//span[contains(text(), "Dali")]'
     wireless = '//*[@id="filter-section_2763"]/div[1]/div[2]/div/div/div/label[1]/span[2]/span[1]'
     big_headphones = '//*[@id="filter-section_2761"]/div[1]/div[2]/div/div/div/label[3]/span[2]/span[1]'
     byu_beyerdynamic_amiron_wireless = '//*[@id="catalog-list"]/div[1]/div[4]/button[2]'
@@ -31,8 +31,8 @@ class Headphones_page(Base):
     def get_more_brands(self):
         return WebDriverWait(self.driver, 30).until(expected_conditions.element_to_be_clickable((By.XPATH, self.more_brands)))
 
-    def get_brand_beyerdynamic(self):
-        return WebDriverWait(self.driver, 30).until(expected_conditions.element_to_be_clickable((By.XPATH, self.brand_beyerdynamic)))
+    def get_brand(self):
+        return WebDriverWait(self.driver, 30).until(expected_conditions.element_to_be_clickable((By.XPATH, self.brand)))
 
     def get_wireless(self):
         return WebDriverWait(self.driver, 30).until(expected_conditions.element_to_be_clickable((By.XPATH, self.wireless)))
@@ -53,8 +53,8 @@ class Headphones_page(Base):
         self.get_more_brands().click()
         print("Click to more brands")
 
-    def click_brand_beyerdynamic(self):
-        self.get_brand_beyerdynamic().click()
+    def click_brand(self):
+        self.get_brand().click()
         print("Click to brend beyerdynamic")
 
     def click_wireless(self):
@@ -81,7 +81,7 @@ class Headphones_page(Base):
         self.driver.execute_script("window.scrollTo(0, 1100)")
         self.click_more_brands()
         self.driver.execute_script("window.scrollTo(0, 1400)")
-        self.click_brand_beyerdynamic()
+        self.click_brand()
         self.driver.execute_script("window.scrollTo(0, 4400)")
         self.click_wireless()
         self.click_big_headphones()
