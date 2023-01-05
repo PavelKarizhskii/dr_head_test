@@ -124,7 +124,7 @@ class Make_order(Base):
         self.input_second_name(test_second_name="QA Automation Engineer (Python)")
         self.input_phone(test_phone="+79649863171")
         self.input_mail(test_mail="pavel.karizhsky@yandex.ru")
-        self.input_description(test_description="Завершение автотеста по покупке беспроводных наушников Dali IO-4 Iron Black. Спасибо за внимание!")
+        self.input_description(test_description="Завершение автотеста по покупке беспроводных наушников Bowers & Wilkins PX 7 S2. Спасибо за внимание!")
         try:
             self.click_button_no()
         except Exception:

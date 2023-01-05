@@ -19,7 +19,7 @@ class Vinyl_record_page(Base):
     """Lokators"""
 
     executor = '//input[@name="2562936554"]'
-    executor_nautilus = '//*[@id="filter-section_2702"]/div[1]/div[2]/div/div/div/label[1022]/span[2]/span[1]'
+    executor_nautilus = '//input[@name="310554920"]'
     vinyl_prince_of_silence = '//img[@title="Фото - Nautilus Pompilius - Князь Тишины"]'
     album_name_locator = '//h1[@data-element-id="88752"]'
 
@@ -28,7 +28,8 @@ class Vinyl_record_page(Base):
 
 
     def get_executor(self):
-        return WebDriverWait(self.driver, 30).until(expected_conditions.element_to_be_clickable((By.XPATH, self.executor)))
+        searh = self.driver.find_elements(By.XPATH, '//input[@placeholder="Поиск по значениям"]')
+        return searh[1]
 
     def get_executor_nautilus(self):
         return WebDriverWait(self.driver, 30).until(expected_conditions.element_to_be_clickable((By.XPATH, '//span[contains(text(), "Наутилус Помпилиус")]')))
@@ -43,6 +44,7 @@ class Vinyl_record_page(Base):
     """Actions"""
 
     def input_executor(self, test_executor):
+        time.sleep(0.5)
         self.get_executor().send_keys(test_executor)
         print("Input executor")
 
